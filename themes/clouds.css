@@ -387,7 +387,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     letter-spacing: 0.025em;
     -webkit-font-smoothing: subpixel-antialiased;
 }
-.member-status{
+.member-status, .status-message{
     color: #7cd87c !important;
     text-shadow: 1px  1px 1px #000000 !important; 
 }
@@ -559,4 +559,14 @@ lol-social-roster-member .party-join-button {
     font-size:17px!important;
     text-shadow:2px 2px black!important;
         
+}
+
+.patching-progress-bar{    
+    padding-left:405px!important;
+}
+
+.ticker-button {
+    position:absolute;
+    margin-left:200px!important;
+    background-repeat:no-repeat;
 }
