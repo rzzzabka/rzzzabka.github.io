@@ -387,10 +387,14 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     letter-spacing: 0.025em;
     -webkit-font-smoothing: subpixel-antialiased;
 }
-.member-status, .status-message{
-    color: #7cd87c !important;
+.member-status, .status-message, .status-message-product-name, .status-message-product-quoted{
+    color: hsla(143, 90%, 44%, 1) !important;
     text-shadow: 1px  1px 1px #000000 !important; 
 }
+.dnd {
+    color:hsla(187, 92%, 57%, 1) !important;
+}
+
 
 .group-header {
     background: rgba(1,10,19,0.7)!important;          
